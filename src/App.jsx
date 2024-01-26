@@ -108,7 +108,7 @@ function App() {
         </div>
         <div className="subtotal">{numberToCurrency(item.price * item.count)}</div>
         <button className="remove" onClick={() => removeMenuItemFromCart(item)}>
-          <span class="material-symbols-outlined">delete</span>
+          <span className="material-symbols-outlined">delete</span>
         </button>
       </li>
     );

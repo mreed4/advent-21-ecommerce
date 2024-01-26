@@ -27,7 +27,7 @@ body {
   height: 875px;
   padding-top: 50px;
   overflow-y: scroll;
-  width: 375px;
+  width: 500px;
 }
 
 h1 {
@@ -44,12 +44,11 @@ ul {
 }
 
 ul.menu li {
-  margin-left: 15px;
+  margin: 0 30px 45px;
   display: flex;
   padding-right: 30px;
   position: relative;
   gap: 20px;
-  margin-bottom: 45px;
 }
 
 ul.menu li:nth-child(4n + 1):before {
@@ -70,11 +69,10 @@ ul.menu li:nth-child(4n + 4):before {
 
 ul.menu li:before {
   background: var(--background);
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+  border-radius: 25px;
   content: "";
   display: block;
-  width: 100%;
+  width: 90%;
   height: 100%;
   position: absolute;
   left: 30px;
@@ -138,7 +136,7 @@ button:hover {
 }
 
 ul.menu button {
-  position: absolute;
+  /* position: absolute; */
 }
 
 button.in-cart {
